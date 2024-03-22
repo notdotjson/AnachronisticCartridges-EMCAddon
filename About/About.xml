@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ModMetaData>
+	<packageId>DotJson.AnachronisticCartridgesEMC</packageId>
+	<name>Anachronistic Cartridges - EMC Addon</name>
+	<author>dotjson</author>
+	<description>Adds a bunch of anachronistic blackpowder loadings for existing cartridges, for the desperate times!</description>
+	<supportedVersions>
+		<li>1.4</li>
+	</supportedVersions>
+	<modDependencies>
+		<li>
+			<packageId>CETeam.CombatExtended</packageId>
+			<displayName>Combat Extended</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2890901044</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>DotJson.EarlyMetallicCartridges</packageId>
+			<displayName>Combat Extended</displayName>
+		</li>
+	</modDependencies>
+	<forceLoadAfter>
+		<li>CETeam.CombatExtended</li>
+		<li>DotJson.EarlyMetallicCartridges</li>
+	</forceLoadAfter>
+</ModMetaData>
